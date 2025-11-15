@@ -1,15 +1,6 @@
 
-# My Sweet Home - House Price Prediction & Recommendation Project
+# House Price Prediction & Recommendation Project
 
-- [LinkedIn - Rajarshi Roy](https://www.linkedin.com/in/rajarshi-roy-learner/)
-  
-- [Github - Rajarshi Roy](https://github.com/Rajarshi12321/)
-
-- [Medium - Rajarshi Roy](https://medium.com/@rajarshiroy.machinelearning)
-  
-- [Kaggle - Rajarshi Roy](https://www.kaggle.com/rajarshiroy0123/)
-- [Mail - Rajarshi Roy](mailto:royrajarshi0123@gmail.com)
-- [Personal-Website - Rajarshi Roy](https://rajarshi12321.github.io/rajarshi_portfolio/)
 
 ## About The Project
 
@@ -37,16 +28,6 @@ There are 70 independent variables in the raw data, I am here explaining only th
  - RentOrSale: Specifies whether the property is available for rent or sale, defining its market status.
 
 
-### Target variable: 
-- exactPrice : The exact price of the house or property.
-  
-
-Dataset Source Link : [https://www.kaggle.com/datasets/rajarshiroy0123/house-prices-in-india-2023](https://www.kaggle.com/datasets/rajarshiroy0123/house-prices-in-india-2023)
-
-To understand about the feature engineering and model prediction for this particular dataset please refer to the following: </br>
-Kaggle Notebook : [https://www.kaggle.com/code/rajarshiroy0123/indian-house-price-prediction](https://www.kaggle.com/code/rajarshiroy0123/indian-house-price-prediction)
-
-
 ## Table of Contents
 
 - [My Sweet Home - House Price Prediction \& Recommendation Project](#my-sweet-home---house-price-prediction--recommendation-project)
@@ -63,15 +44,6 @@ Kaggle Notebook : [https://www.kaggle.com/code/rajarshiroy0123/indian-house-pric
   - [Contact](#contact)
   - [License](#license)
   - [Reference](#reference)
-
-## Images 
-
-Inputing Features :
-![image](https://github.com/Rajarshi12321/Housing_predict_recommend/assets/94736350/2a1f9fff-bf1e-4533-9090-58db6502445d)
-
-Predicted and recommended Output :
-![image](https://github.com/Rajarshi12321/Housing_predict_recommend/assets/94736350/60bed2a5-52cc-4c9f-acad-421acf0db3b2)
-
 
 
 ## Installation and Dependencies
@@ -94,72 +66,6 @@ These are some required packages for our program which are mentioned in the Requ
 - joblib
 - librosa
 - lxml
-
-
-
-
-## Working Directory
-
-```
-📦Housing_predict_recommend
- ┣ 📂artifact
- ┃ ┗ 📜Dataset.csv
- ┣ 📂artifacts
- ┃ ┣ 📜data_preprocessed_recommend.csv
- ┃ ┣ 📜model.pkl
- ┃ ┣ 📜model_rent.pkl
- ┃ ┣ 📜preprocessor.pkl
- ┃ ┣ 📜processed_data.csv
- ┃ ┣ 📜recommend_data.csv
- ┃ ┗ 📜testing.py
- ┣ 📂catboost_info
- ┣ 📂logs
- ┣ 📂NOTEBOOK
- ┃ ┣ 📂DATA
- ┃ ┃ ┗ 📜Scraped_Data.csv
- ┃ ┗ 📜indian-house-price-prediction.ipynb
- ┣ 📂src
- ┃ ┣ 📂components
- ┃ ┃ ┣ 📜data_ingestion.py
- ┃ ┃ ┣ 📜data_transformation.py
- ┃ ┃ ┣ 📜model_trainer.py
- ┃ ┃ ┗ 📜__init__.py
- ┃ ┣ 📂pipeline
- ┃ ┃ ┣ 📜predict_pipeline.py
- ┃ ┃ ┣ 📜scraping_pipeline.py
- ┃ ┃ ┣ 📜train_pipeline.py
- ┃ ┃ ┗ 📜__init__.py
- ┃ ┣ 📂recommender
- ┃ ┃ ┣ 📜data_transformation_recommend.py
- ┃ ┃ ┣ 📜house_recommender.py
- ┃ ┃ ┗ 📜__init__.py
- ┃ ┣ 📜exception.py
- ┃ ┣ 📜logger.py
- ┃ ┣ 📜utils.py
- ┃ ┗ 📜__init__.py
- ┣ 📂static
- ┃ ┣ 📂css
- ┃ ┃ ┗ 📜signup.css
- ┃ ┗ 📂img
- ┃ ┃ ┣ 📜beautiful_house.jpg
- ┃ ┃ ┣ 📜default_pic.png
- ┃ ┃ ┗ 📜No Suitable house image found.png
- ┣ 📂templates
- ┃ ┣ 📜get_elements.py
- ┃ ┣ 📜home.html
- ┃ ┣ 📜index.html
- ┃ ┗ 📜testing.html
- ┣ 📜.gitignore
- ┣ 📜.gitattributes
- ┣ 📜app.py
- ┣ 📜city_locality.npy
- ┣ 📜Dockerfile
- ┣ 📜LICENSE
- ┣ 📜main.py
- ┣ 📜README.md
- ┣ 📜requirements.txt
- ┗ 📜setup.py
- ```
 
 
 ## Working with the code
@@ -242,18 +148,5 @@ I welcome contributions to improve the functionality and performance of the app.
 
 4. Create a pull request, detailing the purpose and changes made in your contribution.
 
-## Contact
 
-Rajarshi Roy - [royrajarshi0123@gmail.com](mailto:royrajarshi0123@gmail.com)
-
-
-
-## License
-This project is licensed under the MIT License. Feel free to modify and distribute it as per the terms of the license.
-
-I hope this README provides you with the necessary information to get started with the Housing Price Prediction and Recommending project. 
-
-## Reference
-
-I took reference from Krish Naik sir's [YouTube Playlist](https://youtube.com/playlist?list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG&si=WpPn00reSU9yYZzc).
 
