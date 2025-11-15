@@ -28,24 +28,6 @@ There are 70 independent variables in the raw data, I am here explaining only th
  - RentOrSale: Specifies whether the property is available for rent or sale, defining its market status.
 
 
-## Table of Contents
-
-- [My Sweet Home - House Price Prediction \& Recommendation Project](#my-sweet-home---house-price-prediction--recommendation-project)
-  - [About The Project](#about-the-project)
-  - [About the Data](#about-the-data)
-    - [Target variable:](#target-variable)
-  - [Table of Contents](#table-of-contents)
-  - [Images](#images)
-  - [Installation and Dependencies](#installation-and-dependencies)
-  - [Working Directory](#working-directory)
-  - [Working with the code](#working-with-the-code)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Contact](#contact)
-  - [License](#license)
-  - [Reference](#reference)
-
-
 ## Installation and Dependencies
 
 These are some required packages for our program which are mentioned in the Requirements.txt file
